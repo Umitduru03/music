@@ -19,10 +19,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/SuskunlarAsistan"
+                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/suskunalarasistan"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/SuskunlarAsistan"
+                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/suskunalarasistan"
                     )
                 ],
                 [
@@ -53,7 +53,7 @@ async def bilgi(_, message: Message):
                          "🗯️ 𝖠𝗇𝖺 𝖬𝖾𝗇𝗎 ", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/SuskunlarAsistan")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/suskunalarasistan")
                  ]
              ]
          )
@@ -75,7 +75,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/SuskunlarAsistan")
+            "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/suskunalarasistan")
         ]
       ]
      ))
@@ -88,7 +88,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/SuskunlarAsistan")
+                         "📩 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/suskunalarasistan")
                  ],
                  [
                      InlineKeyboardButton(
@@ -129,10 +129,10 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/SuskunlarAsistan"
+                        "🇹🇷 𝐀𝐬𝐢𝐬𝐭𝐚𝐧", url="https://t.me/suskunalarasistan"
                     ),
                     InlineKeyboardButton(
-                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/SuskunlarAsistan"
+                        "📝 𝐒𝐚𝐡𝐢𝐩", url="https://t.me/suskunalarasistan"
                     )
                 ],
                 [
